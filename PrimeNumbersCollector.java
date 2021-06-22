@@ -1,3 +1,4 @@
+package git_Laptop;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 import java.util.stream.IntStream;
@@ -85,7 +86,7 @@ class CollectorHarness {
         }
         System.out.println("Fastest execution done in " + fastest + " msecs");
     }
-
+    
     public static void main1(String[] args) {
         long fastest = Long.MAX_VALUE;
         for(int i = 0 ; i < 10 ; i++){
